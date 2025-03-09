@@ -1,0 +1,17 @@
+{
+    "request": {
+      "method": "POST",
+      "url": "/payments"
+    },
+    "response": {
+      "status": 200,
+      "jsonBody": {
+        "transaction_id": "12345",
+        "status": "success"
+      },
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    }
+  }
+  
