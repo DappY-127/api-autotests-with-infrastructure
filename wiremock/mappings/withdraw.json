@@ -1,0 +1,16 @@
+{
+    "request": {
+      "method": "POST",
+      "url": "/withdraw"
+    },
+    "response": {
+      "status": 400,
+      "jsonBody": {
+        "error": "Insufficient funds"
+      },
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    }
+  }
+  
